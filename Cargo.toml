@@ -1,0 +1,13 @@
+[package]
+name = "rs-huffman-code"
+version = "1.0.0"
+edition = "2021"
+description = "Huffman coding with canonical codes and bit-packing"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-huffman-code"
+keywords = ["rust", "huffman", "compression", "encoding", "algorithms"]
+
+[[bin]]
+name = "rs_huffman_code"
+path = "main.rs"
